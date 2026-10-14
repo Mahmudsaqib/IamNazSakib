@@ -1,0 +1,52 @@
+name: Fetch gold market data
+
+# Runs only when dispatched manually or when this file itself changes.
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/fetch-gold-data.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch OHLCV from Yahoo Finance (COMEX GC=F futures + XAUUSD spot)
+        run: |
+          set -euo pipefail
+          mkdir -p data/raw
+          UA="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124.0 Safari/537.36"
+          fetch() { # $1=symbol(url-encoded) $2=interval $3=range $4=outfile
+            for attempt in 1 2 3; do
+              if curl -fsSL -A "$UA" \
+                   "https://query1.finance.yahoo.com/v8/finance/chart/$1?interval=$2&range=$3&includePrePost=false" \
+                   -o "data/raw/$4.json"; then
+                echo "ok  $4 ($(wc -c < data/raw/$4.json) bytes)"; return 0
+              fi
+              echo "retry $attempt for $4"; sleep 3
+            done
+            echo "FAILED $4"; return 1
+          }
+          fetch "GC%3DF"     5m  5d  gc_5m_5d
+          fetch "GC%3DF"     15m 1mo gc_15m_1mo
+          fetch "GC%3DF"     1h  3mo gc_1h_3mo
+          fetch "GC%3DF"     1d  2y  gc_1d_2y
+          fetch "XAUUSD%3DX" 5m  5d  xau_5m_5d
+          fetch "XAUUSD%3DX" 15m 1mo xau_15m_1mo
+          fetch "XAUUSD%3DX" 1h  3mo xau_1h_3mo
+          fetch "XAUUSD%3DX" 1d  2y  xau_1d_2y
+          date -u +"%Y-%m-%dT%H:%M:%SZ" > data/raw/fetched_at.txt
+          ls -la data/raw
+
+      - name: Commit data back to the branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/raw
+          git commit -m "data: gold OHLCV snapshot $(cat data/raw/fetched_at.txt)" || { echo "nothing to commit"; exit 0; }
+          git push origin HEAD:${GITHUB_REF_NAME}
