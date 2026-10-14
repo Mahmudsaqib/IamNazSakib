@@ -1,74 +1,91 @@
 # XAUUSD (Gold) — ICT + Volume Profile Intraday Plan
-**Date:** 2026-10-14 (Wed) · **Time of analysis:** ~14:05 UTC (20:05 BST) · **Style:** Intraday (15m–1H entry) · **Bias:** Bearish (HTF) → **NO BUY right now**
+**Date:** 2026-10-14 (Wed) · **Data:** TradingView `OANDA:XAUUSD` (price) + `COMEX:GC1!` (real volume), last bar **14:15 UTC = 10:15 NY = 20:15 BST** · **Style:** Intraday (15m–1H entry)
+**Verdict:** HTF bearish, price mid-displacement, SSL below untouched → **NO BUY right now.** Buy only after the 4,066.5 sweep + MSS (plan A) or an early 4,107.4 reclaim with volume (plan B, smaller size).
 
-> সব লেভেল পাবলিক সোর্স (FXEmpire, FXStreet, Mitrade, TradingKey, CNBC) থেকে নেওয়া; broker ভেদে $1–3 পার্থক্য হতে পারে। নিজের চার্টে verify করো।
+Charts: `analysis/out/xauusd_15m_ict_map.png` · `analysis/out/xauusd_5m_ny_session_volume.png` · `analysis/out/xauusd_daily_htf.png`
+Re-run: trigger the *Fetch gold market data* workflow → `git pull` → `python scripts/ict_analysis.py && python scripts/plot_charts.py`
 
 ---
 
-## 1. Context (কেন আজ মার্কেট পড়ছে)
+## 1. Context
 | Item | Value |
 |---|---|
-| Spot @ 14:05 UTC | ≈ **$4,089** (−1.6% … −1.8% on the day) |
-| US CPI (Sep) @ 12:30 UTC | Headline **3.7%** YoY (exp 3.6%), **0.6%** MoM · Core **2.6%** YoY (exp 2.5%), **0.3%** MoM (exp 0.2%) → **HOT** |
-| Fed pricing | Dec hike ≈ 90%, Oct ≈ 22%; 2Y yield > 4.81%; DXY ≈ 102 (near 18-month high) |
-| Daily trend | DOWN — lower highs 4,399.67 → 4,217.40; price below 50/100/200 daily SMA |
-| ATH | $5,602 (2026-01-29) → current ≈ −27% |
-| Upcoming risk | Beige Book 18:00 UTC today · **PPI + Retail Sales tomorrow 12:30 UTC** · Oil/Middle East headlines (Aramco attack, Hormuz) |
+| Spot (14:15 UTC) | **4,091.5** · day O 4,161.08 / H 4,170.49 (03:15 UTC, Asia) / L **4,079.73** (13:20 UTC = 09:20 NY) · −1.67 % |
+| News | US CPI (Sep) 12:30 UTC: headline 3.7 % y/y (exp 3.6), 0.6 % m/m · core 2.6 % (exp 2.5), 0.3 % m/m (exp 0.2) → **hot** |
+| Rates / USD | Dec Fed hike ≈ 90 % priced · 2Y > 4.81 % · DXY ≈ 102 (near 18-month high) |
+| Next events | Beige Book 18:00 UTC (00:00 BST) · **PPI + Retail Sales Thu 12:30 UTC (18:30 BST)** · Middle-East / oil headlines |
 
-## 2. Key levels (daily swing / dealing range)
+## 2. HTF structure (Daily / 4H / 1H) — all bearish
+* Daily lower highs **4,399.67 (Sep 18) → 4,227.53 (Oct 2) → 4,217.40 (Oct 12)**; lower lows **4,235.17 → 4,110.87 (Sep 28) → 4,066.54 (Oct 7)**. Price below 50/100/200-day SMAs.
+* Dealing range **4,066.54 – 4,217.40**, EQ **4,141.97**. Price sits at 16.6 % of the range (deep discount). OTE retracement levels 62/70.5/79 % = 4,123.9 / 4,111.0 / **4,098.2** → price is already *below* the 79 % level ⇒ the "buy the OTE" idea for this range has failed ⇒ probability of a run on the range low rises.
+* 1H: bearish MSS at 08:00 UTC (close < 4,144.46), then the CPI displacement.
+* Today the drop swept: Sep low / PML **4,110.87**, 1H equal lows 4,112.5 and 4,124–4,125 (Oct 2/5), yesterday's low 4,147.0.
+* Price is back at the **top of the Jun–Aug base (3,942–4,166)**. The **Aug-3 daily bullish OB 4,019.2–4,079.2** (origin of the August rally) — today's low 4,079.73 tapped its top exactly; mean threshold **4,049**.
+
+## 3. Key levels (spot)
 | Level | Price | Role |
 |---|---|---|
-| Main top (swing high, Mon 12 Oct) | **4,217.40** | BSL · break = trend change to up |
-| Resistance | 4,215–4,227 · 4,300–4,330 | — |
-| Equilibrium (50% of 4,066.54–4,217.40) | **4,141.97** | broke down after CPI → now resistance / POC area |
-| Pivot resistance | 4,114 | — |
-| Big figure | **4,100** | broke down in NY session · reclaim = short-term buyers back |
-| Current | ≈ 4,089 | inside displacement leg (no PD array here) |
-| Main bottom (last week's low) | **4,066.54** | **SSL #1 — Draw on Liquidity** |
-| Daily pivot S1 | 4,060.37 | sweep zone 4,050–4,066 |
-| Weekly vol-range low / big figure | 4,004 / **4,000** | **SSL #2** if 4,066 fails with displacement |
-| Deeper | 3,900 | daily-close below 4,000 target |
+| PDH | 4,200.63 | BSL |
+| Today / Asia high | 4,170.49 | BSL |
+| 15m bearish OB (12:15 UTC candle) | **4,144.67 – 4,155.84** (MT 4,150.25) | unmitigated — top of sell zone |
+| PDL | 4,147.0 | — |
+| Daily EQ | **4,141.97** | broke down after CPI; reclaim = CPI move negated |
+| 15m bearish FVG | **4,107.69 – 4,144.67** (CE 4,126.18) | untouched |
+| 1H bearish FVG | **4,107.37 – 4,136.02** (CE 4,121.70) | untouched |
+| 5m bearish FVGs | 4,118.34–4,149.49 (CE 4,133.9) · 4,111.05–4,113.46 · 4,095.46–4,098.27 | retrace magnets |
+| Sep low (PML) | 4,110.87 | swept |
+| **LTF bullish MSS trigger** | **4,107.37** (13:35 UTC high) | 5m/15m close above = first bullish shift |
+| 4,100 | 4,100 | psych |
+| 5m higher low | 4,086.72 (14:00 UTC) | micro support |
+| **Today's low** | **4,079.73** | 5m close below = continuation |
+| **PWL / Oct-7 low / range low** | **4,066.54** | **SSL #1 — draw on liquidity** |
+| Daily OB mean threshold | 4,049 | sweep target zone 4,049–4,066 |
+| Daily OB low | 4,019.2 | deeper HTF demand |
+| Big figure / summer lows | 4,000 · 3,996 (Jul 29) · 3,960 (Jul 17) · 3,942 (Jun 30) | SSL #2 |
 
-## 3. ICT read
-- **HTF order flow:** bearish. Price entered **discount** of the 4,066–4,217 range, but in a bearish HTF, discount = where SSL gets taken, not an automatic buy.
-- **Displacement:** CPI candle(s) created bearish FVGs / volume imbalances roughly **4,110–4,135** (15m) — mark exact ones on your chart; they are resistance / sell zones until traded through with displacement.
-- **Liquidity untouched below:** 4,066.54 and 4,000. Smart money rarely reverses before the obvious stop pool is run.
-- **No LTF MSS/CHoCH** yet on 5m/15m → no bullish confirmation.
-- **Time:** NY AM KZ over; 10–11 AM NY macro window running; next quality window = **NY PM session 13:30–16:00 ET (23:30–02:00 BST)**.
+## 4. Volume status
+**COMEX GC1! 5m volume (3-day avg ≈ 400 contracts/5m):**
+* 12:30 CPI candle **8,611 (21.5×)** → 12:40 **6,854 (17×)** → 13:00 **4,506 (11×)**: three initiative sell legs.
+* The actual low 13:15/13:20 printed on **1,512 / 1,178 (3.8× / 2.9×)** → sellers thinning at the low (volume did not confirm the final low).
+* 13:30 bounce candle **4,117 (10×)** = responsive buying at 4,080–4,090; the pull-back 13:50–13:55 only 1,373 / 1,661 (3–4×).
+* Net: initiative = sellers, responsive buyers present at 4,080–4,090, **no initiative buying through 4,107 yet**. Day volume 127.7k by 10:05 NY vs 100–169k full recent days → heavy, institutional day.
+* ICT *volume imbalances*: none in today's drop (bodies overlap) — the imbalances are the FVGs above.
 
-## 4. Volume Profile (what to look for on your chart)
-- October balance ≈ 4,100–4,200. Expected **POC ≈ 4,140–4,160** (3-session sit zone), **VAL ≈ 4,100–4,110**, **VAH ≈ 4,200–4,215**.
-- Price now **below VAL** → attempting *acceptance below value*. 15m/1H closes under 4,100 with rising volume = value migrating lower → 4,066 → 4,000.
-- **Bullish volume signal to wait for:** sweep of 4,066 with a volume spike + long lower wick + fast reclaim of 4,100 (failed auction) → mean reversion to POC 4,142.
-- If 4,066–4,000 is an **LVN** (fast early-Oct drop), a break of 4,066 travels quickly to 4,000.
+**Volume profile (what the TradingView fixed-range VP shows):**
+| Profile | POC | VAH | VAL | HVN | LVN |
+|---|---|---|---|---|---|
+| Oct 1 → now, OANDA tick vol | **4,163** | 4,192 | **4,132** | 4,135 · 4,141 · 4,163 · 4,185 | **4,099** · 4,201 |
+| Oct 1 → now, COMEX real vol (−26 basis) | 4,167 | 4,194 | 4,128 | 4,123 · 4,141 · 4,165 · 4,183 | 4,099 |
+| Today only (OANDA) | 4,144.5 | 4,167 | 4,097 | **4,092.5 (new node forming)** | 4,109.5 |
 
-## 5. Decision: **Do NOT buy now**
-1. HTF bearish + fresh bearish news fuel → a buy is counter-trend.
-2. Price is mid-displacement, not at a PD array (no OB/FVG/breaker under price until 4,066).
-3. Liquidity below (4,066.54 / 4,000) not yet taken.
-4. No LTF market structure shift.
+Reading: price is **below the October value area (VAL 4,132)** and sitting under the **LVN 4,099**. A fresh HVN is building at ~4,088–4,093 (a ledge). Acceptance below value + heavy sell volume = the auction is looking lower (4,066 → summer base). Buyers' tell = an impulsive 5m/15m close back above **4,107.4** on ≥ 2× volume (LVN reclaim → rotation to VAL 4,132 / EQ 4,142). Below 4,079 there is essentially no volume node until the summer base (4,020–4,060) → a break travels fast.
 
-## 6. The only valid BUY setup (counter-trend scalp/intraday)
-**Setup A — SSL sweep + MSS at 4,066**
-1. **Wait** for price to trade **below 4,066.54** (ideal sweep zone 4,050–4,066, includes S1 4,060).
-2. **Confirm (5m/15m):** bullish displacement candle breaking the last LTF lower-high (MSS/CHoCH) and leaving a bullish FVG. Volume: spike on the sweep candle, sustained on the up candle.
-3. **Entry:** limit at the FVG consequent encroachment (50%) or the bullish OB that originated the MSS.
-4. **SL:** $3–5 below the sweep low.
-5. **Targets:** TP1 4,100 (partial, SL→BE) · TP2 4,114 · TP3 4,142 (EQ/POC). Minimum 1:2 RR or skip.
-6. **Best time:** NY PM session. Avoid Asian session for this.
-7. **Invalidation:** 15m close below 4,060 with no quick reclaim → no trade; next buy zone becomes **4,000–4,005** (same checklist).
+## 5. Decision: **do NOT buy now**
+1. HTF (D/4H/1H) bearish + bearish news fuel → a buy is counter-trend.
+2. Price is inside a displacement leg; the only discount arrays are below (4,049–4,079 daily OB, 4,066.5 SSL).
+3. 4,066.54 and 4,000 liquidity untouched; the daily-range OTE has already failed.
+4. No 5m/15m bullish MSS (needs close > 4,107.37).
 
-**Setup B — 4,100 reclaim (lower priority)**
-- 15m displacement back above 4,100 + MSS + 15m close holds above 4,100 → entry at that 15m FVG, SL below today's low, TP 4,142. Weaker because liquidity below is untouched.
+## 6. Buy plans (counter-trend scalp / intraday)
+**Plan A — SSL sweep + MSS (preferred, best in NY PM 17:30–20:00 UTC = 23:30–02:00 BST)**
+1. Wait for a sweep **below 4,066.54**, ideally into **4,049–4,066** (daily OB mean threshold + pivot S1 4,060).
+2. Confirm on 5m/15m: displacement candle closing above the last lower-high made during the sweep, leaving a bullish FVG; sweep bar on high volume, reclaim bar ≥ 2× avg; ideally SMT with silver (silver does not make a new low).
+3. Entry: FVG CE or the bullish OB that launched the MSS. SL $3–5 under the sweep low.
+4. Targets: TP1 **4,100** (partial, SL→BE) · TP2 **4,118–4,126** (1H/15m FVG CE) · TP3 **4,142** (EQ). Example: entry 4,062 / SL 4,044 / TP1 4,100 (2.1R) / TP2 4,122 (3.3R).
+5. Invalidation: 15m close < 4,045 with no reclaim → stand aside; next zone **4,019 (OB low) → 4,000** with the same checklist.
 
-## 7. Higher-probability trade today (honest note)
-ICT A+ setup is the **SELL**: retrace into the 4,110–4,135 bearish FVG/breaker (premium of today's range) → 5m bearish MSS → short, SL above 4,145, TP 4,066 → 4,000.
+**Plan B — early LVN reclaim (aggressive, half size)**
+* 5m close **> 4,107.37** with displacement and ≥ 2× COMEX volume → wait for the retrace into the new 5m FVG (≈ 4,095–4,105) → entry; SL below 4,086.7 (safer: below 4,079.7); TP 4,121.7 / 4,126.2 / 4,136–4,142. Lower probability because the 4,066.5 pool is untouched; skip during NY lunch (16:00–17:30 UTC).
 
-## 8. Risk rules
-- ≤ 1% risk per trade; no entries inside a news candle; PPI/Retail Sales tomorrow 12:30 UTC.
-- Oil/geopolitical headlines can spike $20–30 in minutes — use hard SL.
+## 7. Pro-trend sell (the A+ ICT setup today)
+Retrace into **4,118–4,136** (1H FVG CE 4,121.7 · 15m FVG CE 4,126.2 · 5m FVG CE 4,133.9) → 5m bearish MSS → short, SL above **4,145** (15m FVG top / PDL 4,147) → TP 4,080 / 4,066 / 4,049 / 4,000. Bias flips only on a 15m close above **4,144.67** + reclaim of EQ 4,142.
 
-## 9. Screenshots needed for exact levels
-1. **1H**, last 5–7 days, Fixed-Range Volume Profile from Oct 1 → now (POC/VAH/VAL visible).
-2. **15m**, today's session with Asia / London / NY ranges marked.
-3. **5m**, 12:00–now UTC (the CPI drop) to mark exact FVGs / volume imbalances / OBs.
+## 8. Timing (BST = UTC+6)
+* 20:30–21:00 BST: 10:00–11:00 NY macro window (we are here).
+* 22:00–23:30 BST: NY lunch — no entries.
+* **23:30–02:00 BST: NY PM session — best window for Plan A.**
+* 00:00 BST: Beige Book. 03:00 BST: daily close — a close < 4,100 (below Sep low 4,110.87) confirms daily continuation.
+* Thu 18:30 BST: PPI + Retail Sales — flatten or hard SL before it.
+
+## 9. Risk
+≤ 1 % per trade · no entries inside news candles · gold spikes $20–30 on Middle-East headlines · minimum 1:2 RR or skip.
