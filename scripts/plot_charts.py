@@ -25,48 +25,48 @@ OUT.mkdir(parents=True, exist_ok=True)
 UP, DN = "#26a69a", "#ef5350"
 RED, GRN, PUR, ORG, GRY, BLU = "#b71c1c", "#1b5e20", "#6a1b9a", "#ff9800", "#757575", "#1e88e5"
 
-# ----------------------------------------------------------------------------- snapshot (2026-10-15 03:30 UTC)
+# ----------------------------------------------------------------------------- snapshot (2026-10-15 14:55 UTC)
 SNAPSHOT = {
-    "m15_start": "2026-10-14 06:00",
-    "m15_ylim": (4060, 4225),
-    "m5_start": "2026-10-14 21:00",
-    "m5_ylim": (4095, 4185),
+    "m15_start": "2026-10-14 12:00",
+    "m15_ylim": (4065, 4225),
+    "m5_start": "2026-10-15 10:00",
+    "m5_ylim": (4120, 4192),
     # (y0, y1, color, label, alpha, start_time)
     "zones_15m": [
-        (4166.62, 4179.70, RED, "4h bear FVG 4166.6-4179.7 (CE 4173.2) = SELL zone", 0.14, "2026-10-13 12:00"),
-        (4173.19, 4177.56, RED, "1h bearish FVG 4173.2-4177.6", 0.22, "2026-10-13 13:00"),
-        (4162.70, 4164.72, RED, "15m FVG 4162.7-4164.7 + EQH 4163.3", 0.30, "2026-10-14 05:00"),
-        (4146.31, 4152.40, GRN, "15m bull FVG 4146.3-4152.4 (price here)", 0.18, "2026-10-15 02:45"),
-        (4130.91, 4137.19, GRN, "BUY A: FVG 4130.9-4137.2 (CE 4134.1) after EQL sweep", 0.28, "2026-10-15 00:15"),
-        (4112.80, 4128.03, GRN, "BUY B: FVG 4112.8-4128.0 (CE 4120.4) + 1h CE 4124.7", 0.20, "2026-10-15 00:00"),
-        (4105.64, 4111.27, GRN, "15m FVG 4105.6-4111.3 = last support of the leg", 0.28, "2026-10-14 23:45"),
+        (4166.62, 4179.70, RED, "4h bear FVG 4166.6-4179.7 (CE 4173.2) rejected once", 0.14, "2026-10-14 12:00"),
+        (4173.19, 4177.56, RED, "1h bear FVG 4173.2-4177.6 (untouched)", 0.22, "2026-10-14 12:00"),
+        (4149.94, 4155.07, GRN, "5m bull FVG 4149.9-4155.1 / session POC 4155.5", 0.18, "2026-10-15 14:20"),
+        (4136.56, 4151.54, PUR, "BUY 1: 1h bull OB (MT 4144) -> 4144-4150", 0.10, "2026-10-15 01:00"),
+        (4130.91, 4137.19, GRN, "BUY 2: FVG 4130.9-4137.2 + EQL 4130.2/4131.6 (held twice)", 0.28, "2026-10-15 00:15"),
+        (4112.80, 4128.03, GRN, "BUY 3 / last line: FVG 4112.8-4128.0 (CE 4120.4)", 0.20, "2026-10-15 00:00"),
     ],
     # (y, label, color, ls, lw, va)
     "levels_15m": [
-        (4217.395, "Range high / Mon high 4217.4", GRY, "--", 1.0, "bottom"),
+        (4217.395, "T3 range high 4217.4", GRY, "--", 1.0, "bottom"),
         (4207.485, "PWH 4207.5", GRY, ":", 1.0, "bottom"),
-        (4200.625, "Oct-13 high 4200.6", GRY, "--", 1.0, "bottom"),
-        (4189.585, "Weekly open 4189.6", BLU, "-.", 1.0, "bottom"),
-        (4170.49, "PDH 4170.5 = BSL", RED, "-", 1.4, "bottom"),
-        (4161.77, "Asia high 4161.8", GRY, ":", 1.0, "top"),
-        (4141.97, "Daily EQ 4142.0 (reclaimed)", ORG, "-.", 1.2, "bottom"),
-        (4136.205, "Equal lows 4136.2 = SSL", GRN, "--", 1.0, "top"),
-        (4110.87, "Sep low 4110.9 (swept Wed, reclaimed)", GRY, ":", 1.0, "top"),
-        (4104.795, "PDC 4104.8 / today open 4104.4", GRY, ":", 1.0, "top"),
-        (4099.89, "Today low 4099.9", GRY, "--", 1.0, "top"),
-        (4073.545, "PDL 4073.5 (Wed NY-lunch sweep low)", RED, "-", 1.2, "top"),
-        (4066.535, "PWL 4066.5 untouched", RED, ":", 1.2, "bottom"),
+        (4200.625, "T2 Oct-13 high 4200.6", GRY, "--", 1.0, "bottom"),
+        (4189.585, "T1 weekly open 4189.6 = MAIN TARGET", BLU, "-", 1.4, "bottom"),
+        (4170.49, "PDH 4170.5 = first target (unclaimed)", RED, "-", 1.4, "bottom"),
+        (4168.72, "today high 4168.7", GRY, ":", 1.0, "top"),
+        (4145.005, "NY-AM low 4145.0", GRN, ":", 1.0, "top"),
+        (4141.97, "Daily EQ 4142.0", ORG, "-.", 1.2, "top"),
+        (4139.0, "today VAL 4139", GRY, ":", 0.9, "top"),
+        (4130.245, "EQL 4130.2 / 4131.6 (London + PPI sweeps)", GRN, "--", 1.2, "top"),
+        (4105.64, "INVALIDATION 4105.6 (15m close below)", RED, "--", 1.2, "top"),
+        (4099.89, "today low 4099.9", GRY, "--", 1.0, "top"),
+        (4073.545, "PDL 4073.5", RED, ":", 1.0, "top"),
     ],
     "sessions_15m": [
-        ("2026-10-14 11:00", "2026-10-14 14:00", "NY AM (CPI)", "#fb8c00"),
-        ("2026-10-14 17:30", "2026-10-14 20:00", "NY PM", BLU),
+        ("2026-10-14 11:00", "2026-10-14 14:00", "Wed NY AM (CPI)", "#fb8c00"),
         ("2026-10-15 00:00", "2026-10-15 04:00", "Asia", "#607d8b"),
         ("2026-10-15 06:00", "2026-10-15 09:00", "London KZ", "#8e24aa"),
-        ("2026-10-15 11:00", "2026-10-15 14:00", "NY AM + PPI 12:30", "#fb8c00"),
+        ("2026-10-15 11:00", "2026-10-15 14:00", "NY AM (PPI 12:30)", "#fb8c00"),
+        ("2026-10-15 17:30", "2026-10-15 20:00", "NY PM (next)", BLU),
     ],
     "notes_15m": [
-        ("2026-10-14 12:30", 4150, "2026-10-14 07:00", 4205, "CPI hot -> displacement\nswept Sep low 4110.9, stopped at 4073.5\n(PWL 4066.5 never reached)", RED),
-        ("2026-10-15 00:15", 4135, "2026-10-14 15:30", 4178, "Asia: yields fall, USD drops\n+$62 displacement, 1h bullish MSS\nCPI drop fully retraced", GRN),
+        ("2026-10-15 06:00", 4131.6, "2026-10-14 14:30", 4120, "06:00 London: sweep of EQL 4136 into FVG\n= BUY A filled -> 4160 (+$29)", GRN),
+        ("2026-10-15 12:30", 4130.2, "2026-10-14 19:00", 4096, "12:30 PPI 1.3% m/m (hot) -> spike to 4130.2\nabsorbed in 5 min (4046 contracts) = bear trap", GRN),
+        ("2026-10-15 13:15", 4168.7, "2026-10-14 15:30", 4200, "13:15 high 4168.7: rejected at 4h FVG bottom,\n$1.8 short of PDH -> PDH still a magnet", RED),
     ],
 }
 
@@ -187,7 +187,7 @@ plt.close(fig)
 # ----------------------------------------------------------------------------- chart 3: 5m Asia rally + COMEX volume
 s5 = x5[x5.index >= S["m5_start"]]
 v5 = g5[g5.index >= S["m5_start"]]
-avg_asia = float(g15[(g15.index >= "2026-10-01") & (g15.index < "2026-10-14 21:00") & (g15.index.hour.isin([23, 0, 1, 2, 3]))]["volume"].mean() / 3)
+avg_asia = float(g5[(g5.index >= "2026-10-12") & (g5.index < "2026-10-15")]["volume"].mean())
 fig = plt.figure(figsize=(16, 9), dpi=130)
 gs = fig.add_gridspec(2, 1, height_ratios=[3, 1], hspace=0.05)
 ax = fig.add_subplot(gs[0, 0])
@@ -198,35 +198,34 @@ ax.set_xlim(x0, x1)
 ax.set_ylim(*S["m5_ylim"])
 xr = num(str(last + pd.Timedelta(minutes=10)))
 for y0, y1, col, lab, al, start in [
-    (4166.62, 4179.70, RED, "4h bearish FVG (CE 4173.2) / 1h FVG 4173.2-4177.6 = SELL zone after PDH sweep", 0.14, "2026-10-14 21:00"),
-    (4162.70, 4164.72, RED, "15m FVG 4162.7-4164.7 + EQH 4163.3", 0.30, "2026-10-14 21:00"),
-    (4146.31, 4152.40, GRN, "15m bull FVG 4146.3-4152.4", 0.18, "2026-10-15 02:45"),
-    (4139.60, 4148.10, PUR, "15m bull OB 4139.6-4148.1", 0.12, "2026-10-15 02:15"),
-    (4130.91, 4137.19, GRN, "BUY A zone 4130.9-4137.2 (CE 4134.1)", 0.28, "2026-10-15 00:15"),
-    (4119.72, 4128.03, GRN, "BUY B zone 4112.8-4128.0 (5m FVG 4119.7-4128.0, 1h CE 4124.7)", 0.22, "2026-10-15 00:10"),
-    (4112.80, 4117.69, GRN, None, 0.22, "2026-10-15 00:00"),
-    (4102.53, 4111.27, GRN, "5m FVGs 4102.5-4111.3 (last support)", 0.22, "2026-10-14 23:40"),
+    (4166.62, 4179.70, RED, "4h bear FVG 4166.6-4179.7 (CE 4173.2) - must be cleared for T1", 0.14, "2026-10-15 10:00"),
+    (4173.19, 4177.56, RED, "1h bear FVG 4173.2-4177.6 (counter-trend sell scalp zone)", 0.22, "2026-10-15 10:00"),
+    (4149.94, 4155.07, GRN, "5m bull FVG 4149.9-4155.1 (CE 4152.5)", 0.18, "2026-10-15 14:20"),
+    (4136.56, 4151.54, PUR, "1h bull OB 4136.6-4151.5 (MT 4144.0) = BUY 1 zone 4144-4150", 0.10, "2026-10-15 10:00"),
+    (4130.91, 4137.19, GRN, "BUY 2 zone 4130.9-4137.2 (EQL 4130.2 / 4131.6)", 0.28, "2026-10-15 10:00"),
 ]:
     box(ax, num(start), x1, y0, y1, col, None, alpha=al)
     if lab:
         ax.text(xr, (y0 + y1) / 2, lab, color=col, fontsize=7.5, va="center", bbox=dict(boxstyle="round,pad=0.1", fc="white", ec="none", alpha=0.7))
-hline(ax, 4170.49, "PDH 4170.5", RED, "-", 1.2, x_text=x0)
-hline(ax, 4161.77, "Asia high 4161.8", GRY, ":", 1.0, x_text=x0, va="top")
-hline(ax, 4155.835, "pre-CPI high 4155.8 (1h MSS level, reclaimed)", GRY, "--", 1.0, x_text=x0, va="top")
-hline(ax, 4141.97, "Daily EQ 4142", ORG, "-.", 1.0, x_text=x0)
-hline(ax, 4136.205, "equal lows 4136.2 = SSL (bait for BUY A)", GRN, "--", 1.0, x_text=x0, va="top")
-hline(ax, 4104.795, "PDC 4104.8", GRY, ":", 1.0, x_text=x0)
-hline(ax, 4099.89, "today low 4099.9", GRY, "--", 1.0, x_text=x0, va="top")
+hline(ax, 4189.585, "T1 weekly open 4189.6", BLU, "-", 1.2, x_text=x0)
+hline(ax, 4170.49, "PDH 4170.5 (first target, unclaimed)", RED, "-", 1.2, x_text=x0)
+hline(ax, 4168.72, "13:15 high 4168.7", GRY, ":", 1.0, x_text=x0, va="top")
+hline(ax, 4164.92, "14:40 LH 4164.9 = minor BSL", GRY, ":", 1.0, x_text=x0, va="top")
+hline(ax, 4160.64, "EQH 4160-4162 (swept 13:15)", GRY, ":", 0.8, x_text=x0, va="top")
+hline(ax, 4145.005, "14:15 low 4145.0 (1h OB MT 4144)", GRN, "--", 1.0, x_text=x0, va="top")
+hline(ax, 4141.97, "Daily EQ 4142", ORG, "-.", 1.0, x_text=x0, va="top")
+hline(ax, 4130.245, "PPI low 4130.2 / London low 4131.6 = EQL", GRN, "--", 1.2, x_text=x0, va="top")
 ax.annotate(f"now {price:.1f}", xy=(num(str(last)), price), xytext=(20, 18), textcoords="offset points", fontsize=9, arrowprops=dict(arrowstyle="->"))
-ax.annotate("1h + 15m bullish MSS\n(close > 4155.8 / 4151.5)", xy=(num("2026-10-15 02:50"), 4159), xytext=(num("2026-10-15 01:20"), 4176), fontsize=8, color=GRN, arrowprops=dict(arrowstyle="->", color=GRN))
-ax.set_title(f"XAUUSD 5m - Thursday Asia displacement + COMEX GC1! real volume   |   {stamp}", fontsize=10, loc="left")
+ax.annotate("PPI spike absorbed in one 5m bar\n= bear trap / turtle soup #2", xy=(num("2026-10-15 12:30"), 4131), xytext=(num("2026-10-15 10:20"), 4123.5), fontsize=8, color=GRN, arrowprops=dict(arrowstyle="->", color=GRN))
+ax.annotate("rejection at 4h FVG bottom;\nlower highs 4168.7 -> 4164.9 = NY-AM balance 4145-4169", xy=(num("2026-10-15 13:15"), 4168.7), xytext=(num("2026-10-15 10:20"), 4183), fontsize=8, color=RED, arrowprops=dict(arrowstyle="->", color=RED))
+ax.set_title(f"XAUUSD 5m - Thursday NY session (PPI) + COMEX GC1! real volume   |   {stamp}", fontsize=10, loc="left")
 ax.tick_params(labelbottom=False)
 ax.grid(alpha=0.15)
 cols = [UP if r.close >= r.open else DN for _, r in v5.iterrows()]
 axb.bar([mdates.date2num(t.tz_convert(None)) for t in v5.index], v5.volume.values, width=5 / (24 * 60) * 0.8, color=cols)
 axb.axhline(avg_asia, color="#555", ls="--", lw=0.8)
-axb.text(x0, avg_asia, f" Oct Asia-session avg 5m vol ~ {avg_asia:.0f}", fontsize=8, va="bottom", color="#555")
-for t, txt in [("2026-10-15 00:15", "impulse 1852"), ("2026-10-15 01:00", "2084 (Asia peak)"), ("2026-10-15 02:50", "breakout 1235"), ("2026-10-15 03:15", "pullback fading")]:
+axb.text(x0, avg_asia, f" 3-day avg 5m vol ~ {avg_asia:.0f}", fontsize=8, va="bottom", color="#555")
+for t, txt in [("2026-10-15 12:30", "PPI 4046 (8.6x) sell"), ("2026-10-15 12:35", "3071 (6.6x) buy-back"), ("2026-10-15 13:15", "3187 (6.8x) wick at 4h FVG"), ("2026-10-15 14:00", "1903 (4.1x) dip bought")]:
     ts = pd.Timestamp(t, tz="UTC")
     v = float(v5.loc[ts, "volume"]) if ts in v5.index else 0
     axb.annotate(txt, xy=(num(t), v), xytext=(0, 6), textcoords="offset points", ha="center", fontsize=7.5)

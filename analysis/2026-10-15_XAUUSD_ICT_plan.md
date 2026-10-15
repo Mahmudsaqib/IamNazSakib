@@ -1,3 +1,46 @@
+# XAUUSD — Update Thu 2026-10-15 14:55 UTC (10:55 NY / 20:55 Bangladesh) · spot **4,158.6**
+
+## What happened since the 03:30 UTC plan
+| UTC | Event |
+|---|---|
+| 05:30–06:00 | London pre-open sold the equal lows 4,136.2 → low **4,131.585** inside the 15m FVG 4,130.9–4,137.2 → **BUY A filled** → rally to 4,158.9 (08:15) / **4,160.64** (09:30) = TP1 reached (+$29) |
+| 09:30–12:15 | Balance 4,145–4,160 ahead of data; equal highs 4,159.3 / 4,160.6 / 4,161.8 |
+| 12:30 PPI | PPI +1.3 % m/m (exp 0.6), 6.3 % y/y — hottest since 2022. Spike to **4,130.245** (second sweep of the 4,131 zone) and **full reversal inside 5 minutes** (4,046 contracts sell → 3,071 buy-back) = bear trap / turtle soup #2 |
+| 13:15 | High **4,168.72** on 3,187 contracts — swept EQH 4,160–4,162 + 15m FVG 4,162.7–4,164.7, stopped at the **4h bearish FVG bottom 4,166.6**, **$1.8 short of PDH 4,170.49** → long upper wick |
+| 13:20–14:55 | NY-AM balance **4,145–4,169**: lows 4,150.6 → 4,145.0 (on the 1h bull OB mean threshold 4,144), highs 4,168.7 → 4,164.9 (lower high). Dips bought on 1,600–1,900 contracts, rallies fading on <1,300 |
+
+## Volume status (COMEX GC1!, 3-day avg ≈ 470 / 5m)
+* Sellers' two best shots (London 06:00 sweep, PPI 12:30 spike 8.6×) were both absorbed instantly → **initiative buyers at 4,130**, responsive sellers at 4,165–4,169.
+* Session volume: Asia 39.8k · London 21.8k · NY so far 47.7k (vs 80k at the same point on CPI day) — normal, no climax.
+* Spot VP: today's **POC 4,155.5**, value 4,139–4,159; MTD POC migrated to **4,155** (was 4,163), VAH 4,190, VAL 4,128. Price is sitting on the POC → balance, no edge in the middle. Profile edges: 4,130 (VAL/EQL) and 4,165–4,170 (VAH/PDH).
+
+## Structure now
+* **Daily:** still bearish structure (LH 4,217.4), but today's candle O 4,104.4 / L 4,099.9 / H 4,168.7 — a close **> 4,161** prints a bullish engulfing after Wednesday's sweep of the Sep low = daily reversal signal.
+* **4H:** price knocking on the 4h bearish FVG 4,166.6–4,179.7 (CE 4,173.2) — the gate to the weekly open. 1h bearish FVG 4,173.2–4,177.6 untouched.
+* **1H / 15m:** HH 4,168.7, HL 4,145.0 → bullish; 1h bull OB 4,136.6–4,151.5 (MT 4,144) and 1h bull FVG 4,112.8–4,136.6 below = demand stack. Double bottom 4,130.2 / 4,131.6 = the line in the sand.
+* **5m:** balance; lower highs 4,168.7 → 4,164.9; a 5m close > 4,165 restarts the leg, a 5m close < 4,145 opens 4,139 → 4,131.
+
+## Clear-cut call
+**Direction: UP** for the next 1–2 sessions while 4,130 holds.
+* **Checkpoint:** 4,170.5 (PDH, unclaimed — NY PM magnet)
+* **T1 (main): 4,189.6** (weekly open; 4h FVG top 4,179.7 and EQL 4,183.8 on the way)
+* **T2: 4,200.6 – 4,207.5** (Oct-13 high / PWH)
+* **T3: 4,217.4** (range high / daily LH — Friday stretch if PPI hangover fades)
+* **Invalidation:** 15m close < 4,130.2 → 4,120 → 4,105.6; a 15m close < 4,105.6 (or daily close < 4,142) kills the reversal → back to 4,100 / 4,073.5.
+
+## Buy now at 4,158? **No** — you are at the session POC, $8 under the 4h bearish FVG, $12 from the first target but $14–28 from the stops. Buy the pullback or the breakout:
+| # | Where | Trigger | SL | Targets | RR |
+|---|---|---|---|---|---|
+| **BUY 1** (primary, NY PM) | **4,144–4,150** (1h OB MT 4,144 + NY-AM low 4,145 + 5m FVG CE 4,152.5 + HVN 4,145.5) | 5m close back above 4,150 after the dip / 5m bullish MSS, dip volume < 2× avg | **4,139** (safer 4,136) | 4,170.5 → 4,179.7 → **4,189.6** | 2.5R → 4R |
+| **BUY 2** (A+, deeper) | **4,131–4,137** (FVG + double bottom 4,130.2/4,131.6; third test of the 1h FVG top 4,136.6) | 5m rejection + MSS, volume spike on the sweep | **4,125** | 4,158 → 4,170.5 → 4,189.6 | 3R → 6R |
+| **BUY 3** (momentum) | 15m close **> 4,170.5** (PDH + 4h FVG bottom cleared) → retest 4,166–4,170 | retest holds, volume ≥ 2× on the break | 4,158 | 4,179.7 → 4,189.6 → 4,200.6 | 2R → 3.5R |
+| SELL (scalp only) | 4,173–4,178 (1h bearish FVG) after a PDH sweep | 5m bearish MSS | 4,181 | 4,158 → 4,150 | counter-trend; skip if you lean long |
+
+## Timing (Bangladesh = UTC+6)
+20:55 now (NY AM just closed) · **22:00–23:30 NY lunch — expect the dip into BUY 1 / BUY 2, no chasing** · **23:30–02:00 NY PM — expansion window, PDH 4,170.5 then 4,179–4,190** · 03:00 daily close (> 4,161 = bullish engulfing) · Friday: no top-tier US data; Asia/London continuation toward 4,189–4,207 possible, PM-Friday profit-taking risk.
+
+---
+
 # XAUUSD (Gold) — ICT + Volume Profile Plan · Thu 2026-10-15
 **Data:** TradingView `OANDA:XAUUSD` (price) + `COMEX:GC1!` (real volume), last bar **03:30 UTC = 23:30 NY = 09:30 Bangladesh** · Spot **4,151.6**
 Charts: `analysis/out/xauusd_15m_ict_map.png` · `xauusd_5m_ny_session_volume.png` · `xauusd_daily_htf.png`
