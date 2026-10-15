@@ -1,6 +1,7 @@
 name: Fetch gold market data
 
 # Runs only when dispatched manually or when the fetch pipeline itself changes.
+# trigger: 2026-10-15T03:40Z
 on:
   workflow_dispatch:
   push:
