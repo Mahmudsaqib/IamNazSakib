@@ -1,0 +1,935 @@
+{
+  "retrieved_utc": "2026-10-21 12:09:28+00:00",
+  "method": "Closed native-timeframe spot candles; exchange futures contract volume. No bid/ask delta. OHLCV-derived estimated volume profile.",
+  "5m": {
+    "latest_observation": {
+      "bar_start": "2026-10-21 12:05:00+00:00",
+      "price": 4139.945,
+      "complete": false
+    },
+    "last_completed_bar": "2026-10-21 12:00:00+00:00",
+    "structure": {
+      "bias": "bullish",
+      "last_highs": [
+        {
+          "time": "2026-10-21 09:35:00+00:00",
+          "price": 4125.925,
+          "kind": "high"
+        },
+        {
+          "time": "2026-10-21 10:40:00+00:00",
+          "price": 4129.155,
+          "kind": "high"
+        },
+        {
+          "time": "2026-10-21 11:40:00+00:00",
+          "price": 4141.185,
+          "kind": "high"
+        }
+      ],
+      "last_lows": [
+        {
+          "time": "2026-10-21 09:00:00+00:00",
+          "price": 4118.4,
+          "kind": "low"
+        },
+        {
+          "time": "2026-10-21 10:15:00+00:00",
+          "price": 4111.855,
+          "kind": "low"
+        },
+        {
+          "time": "2026-10-21 11:05:00+00:00",
+          "price": 4125.26,
+          "kind": "low"
+        }
+      ]
+    },
+    "swings": [
+      {
+        "time": "2026-10-21 08:00:00+00:00",
+        "price": 4124.955,
+        "kind": "high"
+      },
+      {
+        "time": "2026-10-21 08:15:00+00:00",
+        "price": 4117.66,
+        "kind": "low"
+      },
+      {
+        "time": "2026-10-21 08:25:00+00:00",
+        "price": 4123.38,
+        "kind": "high"
+      },
+      {
+        "time": "2026-10-21 08:45:00+00:00",
+        "price": 4123.665,
+        "kind": "high"
+      },
+      {
+        "time": "2026-10-21 09:00:00+00:00",
+        "price": 4118.4,
+        "kind": "low"
+      },
+      {
+        "time": "2026-10-21 09:35:00+00:00",
+        "price": 4125.925,
+        "kind": "high"
+      },
+      {
+        "time": "2026-10-21 10:15:00+00:00",
+        "price": 4111.855,
+        "kind": "low"
+      },
+      {
+        "time": "2026-10-21 10:40:00+00:00",
+        "price": 4129.155,
+        "kind": "high"
+      },
+      {
+        "time": "2026-10-21 11:05:00+00:00",
+        "price": 4125.26,
+        "kind": "low"
+      },
+      {
+        "time": "2026-10-21 11:40:00+00:00",
+        "price": 4141.185,
+        "kind": "high"
+      }
+    ],
+    "mss": {
+      "bullish_mss": null,
+      "bearish_mss": null
+    },
+    "open_fvgs": [
+      {
+        "time": "2026-10-20 14:45:00+00:00",
+        "kind": "bearish",
+        "top": 4144.57,
+        "bottom": 4142.56,
+        "ce": 4143.57,
+        "size": 2.02,
+        "touched": true,
+        "filled": false
+      },
+      {
+        "time": "2026-10-21 10:20:00+00:00",
+        "kind": "bullish",
+        "top": 4118.38,
+        "bottom": 4116.15,
+        "ce": 4117.26,
+        "size": 2.23,
+        "touched": false,
+        "filled": false
+      },
+      {
+        "time": "2026-10-21 10:30:00+00:00",
+        "kind": "bullish",
+        "top": 4121.88,
+        "bottom": 4121.13,
+        "ce": 4121.5,
+        "size": 0.74,
+        "touched": false,
+        "filled": false
+      },
+      {
+        "time": "2026-10-21 10:35:00+00:00",
+        "kind": "bullish",
+        "top": 4124.25,
+        "bottom": 4121.99,
+        "ce": 4123.12,
+        "size": 2.26,
+        "touched": false,
+        "filled": false
+      },
+      {
+        "time": "2026-10-21 11:40:00+00:00",
+        "kind": "bullish",
+        "top": 4137.04,
+        "bottom": 4134.62,
+        "ce": 4135.83,
+        "size": 2.42,
+        "touched": false,
+        "filled": false
+      }
+    ],
+    "order_block_candidates": [
+      {
+        "time": "2026-10-21 06:40:00+00:00",
+        "kind": "bearish",
+        "top": 4115.28,
+        "bottom": 4113.52,
+        "mean_threshold": 4114.4,
+        "broke": 4112.355,
+        "mitigated": true
+      },
+      {
+        "time": "2026-10-21 07:10:00+00:00",
+        "kind": "bullish",
+        "top": 4116.37,
+        "bottom": 4113.57,
+        "mean_threshold": 4114.97,
+        "broke": 4119.52,
+        "mitigated": true
+      },
+      {
+        "time": "2026-10-21 09:05:00+00:00",
+        "kind": "bullish",
+        "top": 4121.6,
+        "bottom": 4119.99,
+        "mean_threshold": 4120.79,
+        "broke": 4123.665,
+        "mitigated": true
+      },
+      {
+        "time": "2026-10-21 09:20:00+00:00",
+        "kind": "bullish",
+        "top": 4122.22,
+        "bottom": 4120.14,
+        "mean_threshold": 4121.18,
+        "broke": 4123.665,
+        "mitigated": true
+      },
+      {
+        "time": "2026-10-21 09:40:00+00:00",
+        "kind": "bearish",
+        "top": 4123.23,
+        "bottom": 4121.06,
+        "mean_threshold": 4122.15,
+        "broke": 4118.4,
+        "mitigated": true
+      },
+      {
+        "time": "2026-10-21 10:10:00+00:00",
+        "kind": "bullish",
+        "top": 4117.69,
+        "bottom": 4114.74,
+        "mean_threshold": 4116.22,
+        "broke": 4125.925,
+        "mitigated": false
+      }
+    ]
+  },
+  "15m": {
+    "latest_observation": {
+      "bar_start": "2026-10-21 12:00:00+00:00",
+      "price": 4139.945,
+      "complete": false
+    },
+    "last_completed_bar": "2026-10-21 11:45:00+00:00",
+    "structure": {
+      "bias": "bearish-leaning",
+      "last_highs": [
+        {
+          "time": "2026-10-21 05:30:00+00:00",
+          "price": 4129.645,
+          "kind": "high"
+        },
+        {
+          "time": "2026-10-21 07:30:00+00:00",
+          "price": 4125.09,
+          "kind": "high"
+        },
+        {
+          "time": "2026-10-21 09:30:00+00:00",
+          "price": 4125.925,
+          "kind": "high"
+        }
+      ],
+      "last_lows": [
+        {
+          "time": "2026-10-21 06:45:00+00:00",
+          "price": 4110.815,
+          "kind": "low"
+        },
+        {
+          "time": "2026-10-21 08:15:00+00:00",
+          "price": 4117.66,
+          "kind": "low"
+        },
+        {
+          "time": "2026-10-21 10:15:00+00:00",
+          "price": 4111.855,
+          "kind": "low"
+        }
+      ]
+    },
+    "swings": [
+      {
+        "time": "2026-10-21 01:30:00+00:00",
+        "price": 4124.325,
+        "kind": "high"
+      },
+      {
+        "time": "2026-10-21 03:00:00+00:00",
+        "price": 4113.17,
+        "kind": "low"
+      },
+      {
+        "time": "2026-10-21 04:15:00+00:00",
+        "price": 4126.225,
+        "kind": "high"
+      },
+      {
+        "time": "2026-10-21 05:00:00+00:00",
+        "price": 4114.125,
+        "kind": "low"
+      },
+      {
+        "time": "2026-10-21 05:30:00+00:00",
+        "price": 4129.645,
+        "kind": "high"
+      },
+      {
+        "time": "2026-10-21 06:45:00+00:00",
+        "price": 4110.815,
+        "kind": "low"
+      },
+      {
+        "time": "2026-10-21 07:30:00+00:00",
+        "price": 4125.09,
+        "kind": "high"
+      },
+      {
+        "time": "2026-10-21 08:15:00+00:00",
+        "price": 4117.66,
+        "kind": "low"
+      },
+      {
+        "time": "2026-10-21 09:30:00+00:00",
+        "price": 4125.925,
+        "kind": "high"
+      },
+      {
+        "time": "2026-10-21 10:15:00+00:00",
+        "price": 4111.855,
+        "kind": "low"
+      }
+    ],
+    "mss": {
+      "bullish_mss": {
+        "broke_high": 4125.925,
+        "at": "2026-10-21 10:30:00+00:00",
+        "close": 4128.515
+      },
+      "bearish_mss": null
+    },
+    "open_fvgs": [
+      {
+        "time": "2026-10-19 07:45:00+00:00",
+        "kind": "bearish",
+        "top": 4181.35,
+        "bottom": 4179.63,
+        "ce": 4180.49,
+        "size": 1.72,
+        "touched": false,
+        "filled": false
+      },
+      {
+        "time": "2026-10-19 11:30:00+00:00",
+        "kind": "bearish",
+        "top": 4171.65,
+        "bottom": 4169.96,
+        "ce": 4170.8,
+        "size": 1.69,
+        "touched": true,
+        "filled": false
+      },
+      {
+        "time": "2026-10-19 13:30:00+00:00",
+        "kind": "bearish",
+        "top": 4158.66,
+        "bottom": 4155.27,
+        "ce": 4156.97,
+        "size": 3.39,
+        "touched": true,
+        "filled": false
+      },
+      {
+        "time": "2026-10-21 10:30:00+00:00",
+        "kind": "bullish",
+        "top": 4125.44,
+        "bottom": 4121.13,
+        "ce": 4123.28,
+        "size": 4.31,
+        "touched": true,
+        "filled": false
+      },
+      {
+        "time": "2026-10-21 11:30:00+00:00",
+        "kind": "bullish",
+        "top": 4137.04,
+        "bottom": 4132.24,
+        "ce": 4134.64,
+        "size": 4.8,
+        "touched": false,
+        "filled": false
+      }
+    ],
+    "order_block_candidates": [
+      {
+        "time": "2026-10-20 22:15:00+00:00",
+        "kind": "bearish",
+        "top": 4131.88,
+        "bottom": 4127.07,
+        "mean_threshold": 4129.48,
+        "broke": 4118.74,
+        "mitigated": true
+      },
+      {
+        "time": "2026-10-21 00:30:00+00:00",
+        "kind": "bearish",
+        "top": 4120.61,
+        "bottom": 4116.7,
+        "mean_threshold": 4118.66,
+        "broke": 4112.115,
+        "mitigated": true
+      },
+      {
+        "time": "2026-10-21 04:45:00+00:00",
+        "kind": "bullish",
+        "top": 4117.03,
+        "bottom": 4114.25,
+        "mean_threshold": 4115.64,
+        "broke": 4126.225,
+        "mitigated": true
+      },
+      {
+        "time": "2026-10-21 09:00:00+00:00",
+        "kind": "bearish",
+        "top": 4124.82,
+        "bottom": 4118.4,
+        "mean_threshold": 4121.61,
+        "broke": 4117.66,
+        "mitigated": true
+      },
+      {
+        "time": "2026-10-21 10:00:00+00:00",
+        "kind": "bullish",
+        "top": 4119.44,
+        "bottom": 4114.74,
+        "mean_threshold": 4117.09,
+        "broke": 4125.925,
+        "mitigated": false
+      },
+      {
+        "time": "2026-10-21 10:45:00+00:00",
+        "kind": "bullish",
+        "top": 4128.82,
+        "bottom": 4125.44,
+        "mean_threshold": 4127.13,
+        "broke": 4125.925,
+        "mitigated": false
+      }
+    ]
+  },
+  "1h": {
+    "latest_observation": {
+      "bar_start": "2026-10-21 12:00:00+00:00",
+      "price": 4139.995,
+      "complete": false
+    },
+    "last_completed_bar": "2026-10-21 11:00:00+00:00",
+    "structure": {
+      "bias": "bearish-leaning",
+      "last_highs": [
+        {
+          "time": "2026-10-20 14:00:00+00:00",
+          "price": 4155.57,
+          "kind": "high"
+        },
+        {
+          "time": "2026-10-20 22:00:00+00:00",
+          "price": 4131.88,
+          "kind": "high"
+        },
+        {
+          "time": "2026-10-21 05:00:00+00:00",
+          "price": 4129.645,
+          "kind": "high"
+        }
+      ],
+      "last_lows": [
+        {
+          "time": "2026-10-20 17:00:00+00:00",
+          "price": 4117.445,
+          "kind": "low"
+        },
+        {
+          "time": "2026-10-21 01:00:00+00:00",
+          "price": 4106.345,
+          "kind": "low"
+        },
+        {
+          "time": "2026-10-21 06:00:00+00:00",
+          "price": 4110.815,
+          "kind": "low"
+        }
+      ]
+    },
+    "swings": [
+      {
+        "time": "2026-10-19 17:00:00+00:00",
+        "price": 4136.6,
+        "kind": "low"
+      },
+      {
+        "time": "2026-10-20 01:00:00+00:00",
+        "price": 4115.575,
+        "kind": "low"
+      },
+      {
+        "time": "2026-10-20 04:00:00+00:00",
+        "price": 4147.415,
+        "kind": "high"
+      },
+      {
+        "time": "2026-10-20 10:00:00+00:00",
+        "price": 4111.68,
+        "kind": "low"
+      },
+      {
+        "time": "2026-10-20 14:00:00+00:00",
+        "price": 4155.57,
+        "kind": "high"
+      },
+      {
+        "time": "2026-10-20 17:00:00+00:00",
+        "price": 4117.445,
+        "kind": "low"
+      },
+      {
+        "time": "2026-10-20 22:00:00+00:00",
+        "price": 4131.88,
+        "kind": "high"
+      },
+      {
+        "time": "2026-10-21 01:00:00+00:00",
+        "price": 4106.345,
+        "kind": "low"
+      },
+      {
+        "time": "2026-10-21 05:00:00+00:00",
+        "price": 4129.645,
+        "kind": "high"
+      },
+      {
+        "time": "2026-10-21 06:00:00+00:00",
+        "price": 4110.815,
+        "kind": "low"
+      }
+    ],
+    "mss": {
+      "bullish_mss": {
+        "broke_high": 4129.645,
+        "at": "2026-10-21 11:00:00+00:00",
+        "close": 4139.93
+      },
+      "bearish_mss": null
+    },
+    "open_fvgs": [
+      {
+        "time": "2026-10-12 04:00:00+00:00",
+        "kind": "bearish",
+        "top": 4201.7,
+        "bottom": 4196.12,
+        "ce": 4198.91,
+        "size": 5.57,
+        "touched": true,
+        "filled": false
+      },
+      {
+        "time": "2026-10-14 18:00:00+00:00",
+        "kind": "bullish",
+        "top": 4092.76,
+        "bottom": 4090.79,
+        "ce": 4091.77,
+        "size": 1.97,
+        "touched": false,
+        "filled": false
+      },
+      {
+        "time": "2026-10-19 13:00:00+00:00",
+        "kind": "bearish",
+        "top": 4158.81,
+        "bottom": 4155.44,
+        "ce": 4157.12,
+        "size": 3.36,
+        "touched": true,
+        "filled": false
+      }
+    ],
+    "order_block_candidates": [
+      {
+        "time": "2026-10-15 16:00:00+00:00",
+        "kind": "bullish",
+        "top": 4153.07,
+        "bottom": 4143.77,
+        "mean_threshold": 4148.42,
+        "broke": 4168.72,
+        "mitigated": true
+      },
+      {
+        "time": "2026-10-16 04:00:00+00:00",
+        "kind": "bullish",
+        "top": 4186.39,
+        "bottom": 4172.18,
+        "mean_threshold": 4179.28,
+        "broke": 4177.455,
+        "mitigated": true
+      },
+      {
+        "time": "2026-10-19 12:00:00+00:00",
+        "kind": "bearish",
+        "top": 4170.23,
+        "bottom": 4158.81,
+        "mean_threshold": 4164.52,
+        "broke": 4165.76,
+        "mitigated": false
+      },
+      {
+        "time": "2026-10-19 17:00:00+00:00",
+        "kind": "bearish",
+        "top": 4146.22,
+        "bottom": 4136.6,
+        "mean_threshold": 4141.41,
+        "broke": 4136.6,
+        "mitigated": true
+      },
+      {
+        "time": "2026-10-20 20:00:00+00:00",
+        "kind": "bearish",
+        "top": 4125.52,
+        "bottom": 4119.91,
+        "mean_threshold": 4122.72,
+        "broke": 4117.445,
+        "mitigated": true
+      },
+      {
+        "time": "2026-10-21 09:00:00+00:00",
+        "kind": "bullish",
+        "top": 4125.93,
+        "bottom": 4117.32,
+        "mean_threshold": 4121.62,
+        "broke": 4129.645,
+        "mitigated": false
+      }
+    ]
+  },
+  "4h": {
+    "latest_observation": {
+      "bar_start": "2026-10-21 09:00:00+00:00",
+      "price": 4139.995,
+      "complete": false
+    },
+    "last_completed_bar": "2026-10-21 05:00:00+00:00",
+    "structure": {
+      "bias": "bearish-leaning",
+      "last_highs": [
+        {
+          "time": "2026-10-16 13:00:00+00:00",
+          "price": 4199.08,
+          "kind": "high"
+        },
+        {
+          "time": "2026-10-19 05:00:00+00:00",
+          "price": 4190.42,
+          "kind": "high"
+        },
+        {
+          "time": "2026-10-20 13:00:00+00:00",
+          "price": 4155.57,
+          "kind": "high"
+        }
+      ],
+      "last_lows": [
+        {
+          "time": "2026-10-13 01:00:00+00:00",
+          "price": 4150.785,
+          "kind": "low"
+        },
+        {
+          "time": "2026-10-14 13:00:00+00:00",
+          "price": 4073.545,
+          "kind": "low"
+        },
+        {
+          "time": "2026-10-20 09:00:00+00:00",
+          "price": 4111.68,
+          "kind": "low"
+        }
+      ]
+    },
+    "swings": [
+      {
+        "time": "2026-10-08 13:00:00+00:00",
+        "price": 4105.5,
+        "kind": "low"
+      },
+      {
+        "time": "2026-10-09 05:00:00+00:00",
+        "price": 4207.485,
+        "kind": "high"
+      },
+      {
+        "time": "2026-10-12 01:00:00+00:00",
+        "price": 4217.395,
+        "kind": "high"
+      },
+      {
+        "time": "2026-10-13 01:00:00+00:00",
+        "price": 4150.785,
+        "kind": "low"
+      },
+      {
+        "time": "2026-10-13 05:00:00+00:00",
+        "price": 4200.625,
+        "kind": "high"
+      },
+      {
+        "time": "2026-10-14 13:00:00+00:00",
+        "price": 4073.545,
+        "kind": "low"
+      },
+      {
+        "time": "2026-10-16 13:00:00+00:00",
+        "price": 4199.08,
+        "kind": "high"
+      },
+      {
+        "time": "2026-10-19 05:00:00+00:00",
+        "price": 4190.42,
+        "kind": "high"
+      },
+      {
+        "time": "2026-10-20 09:00:00+00:00",
+        "price": 4111.68,
+        "kind": "low"
+      },
+      {
+        "time": "2026-10-20 13:00:00+00:00",
+        "price": 4155.57,
+        "kind": "high"
+      }
+    ],
+    "mss": {
+      "bullish_mss": null,
+      "bearish_mss": null
+    },
+    "open_fvgs": [
+      {
+        "time": "2026-08-28 13:00:00+00:00",
+        "kind": "bearish",
+        "top": 4589.13,
+        "bottom": 4486.84,
+        "ce": 4537.99,
+        "size": 102.29,
+        "touched": true,
+        "filled": false
+      },
+      {
+        "time": "2026-09-04 09:00:00+00:00",
+        "kind": "bearish",
+        "top": 4460.15,
+        "bottom": 4449.0,
+        "ce": 4454.58,
+        "size": 11.15,
+        "touched": false,
+        "filled": false
+      },
+      {
+        "time": "2026-09-23 01:00:00+00:00",
+        "kind": "bearish",
+        "top": 4355.26,
+        "bottom": 4345.81,
+        "ce": 4350.53,
+        "size": 9.44,
+        "touched": false,
+        "filled": false
+      },
+      {
+        "time": "2026-09-23 05:00:00+00:00",
+        "kind": "bearish",
+        "top": 4333.32,
+        "bottom": 4320.56,
+        "ce": 4326.94,
+        "size": 12.76,
+        "touched": false,
+        "filled": false
+      },
+      {
+        "time": "2026-09-27 21:00:00+00:00",
+        "kind": "bearish",
+        "top": 4279.56,
+        "bottom": 4231.82,
+        "ce": 4255.69,
+        "size": 47.73,
+        "touched": false,
+        "filled": false
+      },
+      {
+        "time": "2026-10-19 09:00:00+00:00",
+        "kind": "bearish",
+        "top": 4169.7,
+        "bottom": 4167.31,
+        "ce": 4168.5,
+        "size": 2.39,
+        "touched": false,
+        "filled": false
+      },
+      {
+        "time": "2026-10-19 13:00:00+00:00",
+        "kind": "bearish",
+        "top": 4158.81,
+        "bottom": 4149.55,
+        "ce": 4154.18,
+        "size": 9.26,
+        "touched": true,
+        "filled": false
+      }
+    ],
+    "order_block_candidates": [
+      {
+        "time": "2026-10-05 05:00:00+00:00",
+        "kind": "bearish",
+        "top": 4170.44,
+        "bottom": 4130.4,
+        "mean_threshold": 4150.42,
+        "broke": 4139.265,
+        "mitigated": true
+      },
+      {
+        "time": "2026-10-05 21:00:00+00:00",
+        "kind": "bearish",
+        "top": 4151.39,
+        "bottom": 4133.17,
+        "mean_threshold": 4142.28,
+        "broke": 4139.265,
+        "mitigated": true
+      },
+      {
+        "time": "2026-10-06 17:00:00+00:00",
+        "kind": "bearish",
+        "top": 4184.39,
+        "bottom": 4156.55,
+        "mean_threshold": 4170.47,
+        "broke": 4103.515,
+        "mitigated": true
+      },
+      {
+        "time": "2026-10-08 09:00:00+00:00",
+        "kind": "bullish",
+        "top": 4132.37,
+        "bottom": 4109.97,
+        "mean_threshold": 4121.17,
+        "broke": 4143.425,
+        "mitigated": true
+      },
+      {
+        "time": "2026-10-09 09:00:00+00:00",
+        "kind": "bullish",
+        "top": 4191.61,
+        "bottom": 4168.57,
+        "mean_threshold": 4180.09,
+        "broke": 4207.485,
+        "mitigated": true
+      },
+      {
+        "time": "2026-10-14 01:00:00+00:00",
+        "kind": "bearish",
+        "top": 4170.49,
+        "bottom": 4144.45,
+        "mean_threshold": 4157.47,
+        "broke": 4150.785,
+        "mitigated": true
+      }
+    ]
+  },
+  "volume_source": {
+    "symbol": "COMEX:GC1!",
+    "units": "contracts per bar",
+    "latest_bar_start": "2026-10-21 11:55:00+00:00",
+    "latest_bar_end": "2026-10-21 12:00:00+00:00",
+    "feed_gap_minutes_since_latest_bar_end": 9.466666666666667,
+    "basis_common_timestamp": "2026-10-21 11:55:00+00:00",
+    "latest_futures_minus_spot": 19.06999999999971,
+    "basis_last_12_range": [
+      18.24499999999989,
+      19.06999999999971
+    ]
+  },
+  "profiles": {
+    "today_ny_midnight_5m": {
+      "range": [
+        4128.4,
+        4160.0
+      ],
+      "POC": 4139.5,
+      "VAH": 4146.0,
+      "VAL": 4131.0,
+      "HVN": [
+        4133.5,
+        4139.5
+      ],
+      "LVN": [
+        4155.5
+      ],
+      "approx_spot_equivalent": {
+        "POC": 4120.43,
+        "VAH": 4126.93,
+        "VAL": 4111.93
+      }
+    },
+    "prior_ny_day_5m": {
+      "range": [
+        4124.0,
+        4174.9
+      ],
+      "POC": 4140.5,
+      "VAH": 4150.0,
+      "VAL": 4131.0,
+      "HVN": [
+        4140.5
+      ],
+      "LVN": [
+        4157.5,
+        4166.5
+      ],
+      "approx_spot_equivalent": {
+        "POC": 4121.43,
+        "VAH": 4130.93,
+        "VAL": 4111.93
+      }
+    }
+  },
+  "volume_matched_1100_1155_utc": {
+    "daily": {
+      "2026-10-16": {
+        "bars": 12,
+        "contracts": 2977.0
+      },
+      "2026-10-19": {
+        "bars": 12,
+        "contracts": 3385.0
+      },
+      "2026-10-20": {
+        "bars": 12,
+        "contracts": 4845.0
+      },
+      "2026-10-21": {
+        "bars": 12,
+        "contracts": 8638.0
+      }
+    },
+    "today_vs_prior_3_mean": 2.312304809494066
+  },
+  "volume_1140": {
+    "contracts": 1622.0,
+    "preceding_300_bar_median": 332.0,
+    "preceding_300_bar_mean": 491.64666666666665
+  },
+  "crosscheck_yahoo_1140": {
+    "volume": 1633.0,
+    "close": 4156.89990234375
+  }
+}
