@@ -63,7 +63,9 @@ try:
         (Interval.in_15_minute, 3000, "15m"),
         (Interval.in_1_hour, 2000, "1h"),
         (Interval.in_4_hour, 1000, "4h"),
-        (Interval.in_daily, 500, "1d"),
+        (Interval.in_daily, 1200, "1d"),
+        (Interval.in_weekly, 600, "1w"),
+        (Interval.in_monthly, 240, "1mo"),
     ]
     for sym, exch, name in [("XAUUSD", "OANDA", "tv_xau"), ("GC1!", "COMEX", "tv_gc")]:
         for iv, n_bars, tag in plan:
