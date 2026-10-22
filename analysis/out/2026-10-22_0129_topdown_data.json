@@ -1,0 +1,913 @@
+{
+  "retrieved_utc": "2026-10-22 01:29:56+00:00",
+  "retrieved_bangladesh": "2026-10-22 07:29:56+06:00",
+  "source": "TradingView OANDA:XAUUSD via tvDatafeed; no browser chart interaction; no indicators or volume analysis",
+  "current_trading_session": "2026-10-22",
+  "timeframes": {
+    "1mo": {
+      "bars": 240,
+      "last_completed_period": "2026-09-01",
+      "current_period": "2026-10-01",
+      "current_bar_unconfirmed": {
+        "open": 4159.92,
+        "high": 4227.53,
+        "low": 4066.535,
+        "close": 4116.385
+      },
+      "previous_completed_bar": {
+        "open": 4454.255,
+        "high": 4510.93,
+        "low": 4110.87,
+        "close": 4157.135
+      },
+      "swings_1_each_side": [
+        {
+          "time": "2024-02-01 00:00:00+00:00",
+          "price": 1984.305,
+          "kind": "low"
+        },
+        {
+          "time": "2024-05-01 00:00:00+00:00",
+          "price": 2450.125,
+          "kind": "high"
+        },
+        {
+          "time": "2024-10-01 00:00:00+00:00",
+          "price": 2790.17,
+          "kind": "high"
+        },
+        {
+          "time": "2024-11-01 00:00:00+00:00",
+          "price": 2536.855,
+          "kind": "low"
+        },
+        {
+          "time": "2025-04-01 00:00:00+00:00",
+          "price": 3500.2,
+          "kind": "high"
+        },
+        {
+          "time": "2025-06-01 00:00:00+00:00",
+          "price": 3451.525,
+          "kind": "high"
+        },
+        {
+          "time": "2025-10-01 00:00:00+00:00",
+          "price": 4381.44,
+          "kind": "high"
+        },
+        {
+          "time": "2026-01-01 00:00:00+00:00",
+          "price": 5602.225,
+          "kind": "high"
+        },
+        {
+          "time": "2026-03-01 00:00:00+00:00",
+          "price": 5419.66,
+          "kind": "high"
+        },
+        {
+          "time": "2026-03-01 00:00:00+00:00",
+          "price": 4099.125,
+          "kind": "low"
+        },
+        {
+          "time": "2026-06-01 00:00:00+00:00",
+          "price": 3942.1,
+          "kind": "low"
+        },
+        {
+          "time": "2026-08-01 00:00:00+00:00",
+          "price": 4697.105,
+          "kind": "high"
+        }
+      ],
+      "swings_2_each_side": [
+        {
+          "time": "2021-08-01 00:00:00+00:00",
+          "price": 1677.686,
+          "kind": "low"
+        },
+        {
+          "time": "2021-11-01 00:00:00+00:00",
+          "price": 1877.14,
+          "kind": "high"
+        },
+        {
+          "time": "2022-03-01 00:00:00+00:00",
+          "price": 2070.63,
+          "kind": "high"
+        },
+        {
+          "time": "2022-09-01 00:00:00+00:00",
+          "price": 1614.925,
+          "kind": "low"
+        },
+        {
+          "time": "2023-05-01 00:00:00+00:00",
+          "price": 2067.0,
+          "kind": "high"
+        },
+        {
+          "time": "2023-10-01 00:00:00+00:00",
+          "price": 1810.465,
+          "kind": "low"
+        },
+        {
+          "time": "2023-12-01 00:00:00+00:00",
+          "price": 2148.99,
+          "kind": "high"
+        },
+        {
+          "time": "2024-10-01 00:00:00+00:00",
+          "price": 2790.17,
+          "kind": "high"
+        },
+        {
+          "time": "2025-04-01 00:00:00+00:00",
+          "price": 3500.2,
+          "kind": "high"
+        },
+        {
+          "time": "2026-01-01 00:00:00+00:00",
+          "price": 5602.225,
+          "kind": "high"
+        },
+        {
+          "time": "2026-03-01 00:00:00+00:00",
+          "price": 4099.125,
+          "kind": "low"
+        },
+        {
+          "time": "2026-06-01 00:00:00+00:00",
+          "price": 3942.1,
+          "kind": "low"
+        }
+      ],
+      "unfilled_completed_fvgs": [
+        {
+          "time": "2009-09-01 00:00:00+00:00",
+          "kind": "bullish",
+          "top": 986.9,
+          "bottom": 971.87,
+          "ce": 979.38,
+          "size": 15.03,
+          "touched": false,
+          "filled": false
+        },
+        {
+          "time": "2009-10-01 00:00:00+00:00",
+          "kind": "bullish",
+          "top": 1041.98,
+          "bottom": 1024.28,
+          "ce": 1033.13,
+          "size": 17.7,
+          "touched": false,
+          "filled": false
+        },
+        {
+          "time": "2016-01-01 00:00:00+00:00",
+          "kind": "bullish",
+          "top": 1115.61,
+          "bottom": 1088.91,
+          "ce": 1102.26,
+          "size": 26.71,
+          "touched": false,
+          "filled": false
+        },
+        {
+          "time": "2018-12-01 00:00:00+00:00",
+          "kind": "bullish",
+          "top": 1276.7,
+          "bottom": 1237.5,
+          "ce": 1257.1,
+          "size": 39.2,
+          "touched": true,
+          "filled": false
+        },
+        {
+          "time": "2019-06-01 00:00:00+00:00",
+          "kind": "bullish",
+          "top": 1381.9,
+          "bottom": 1306.9,
+          "ce": 1344.4,
+          "size": 75.01,
+          "touched": false,
+          "filled": false
+        },
+        {
+          "time": "2022-11-01 00:00:00+00:00",
+          "kind": "bullish",
+          "top": 1765.91,
+          "bottom": 1729.59,
+          "ce": 1747.75,
+          "size": 36.32,
+          "touched": false,
+          "filled": false
+        },
+        {
+          "time": "2022-12-01 00:00:00+00:00",
+          "kind": "bullish",
+          "top": 1823.79,
+          "bottom": 1786.55,
+          "ce": 1805.17,
+          "size": 37.24,
+          "touched": true,
+          "filled": false
+        },
+        {
+          "time": "2024-03-01 00:00:00+00:00",
+          "kind": "bullish",
+          "top": 2228.54,
+          "bottom": 2065.53,
+          "ce": 2147.03,
+          "size": 163.01,
+          "touched": false,
+          "filled": false
+        },
+        {
+          "time": "2024-04-01 00:00:00+00:00",
+          "kind": "bullish",
+          "top": 2277.34,
+          "bottom": 2236.33,
+          "ce": 2256.84,
+          "size": 41.01,
+          "touched": false,
+          "filled": false
+        },
+        {
+          "time": "2024-09-01 00:00:00+00:00",
+          "kind": "bullish",
+          "top": 2604.39,
+          "bottom": 2531.76,
+          "ce": 2568.08,
+          "size": 72.62,
+          "touched": true,
+          "filled": false
+        },
+        {
+          "time": "2025-01-01 00:00:00+00:00",
+          "kind": "bullish",
+          "top": 2772.22,
+          "bottom": 2726.3,
+          "ce": 2749.26,
+          "size": 45.92,
+          "touched": false,
+          "filled": false
+        },
+        {
+          "time": "2025-02-01 00:00:00+00:00",
+          "kind": "bullish",
+          "top": 2859.0,
+          "bottom": 2817.22,
+          "ce": 2838.11,
+          "size": 41.78,
+          "touched": false,
+          "filled": false
+        },
+        {
+          "time": "2025-09-01 00:00:00+00:00",
+          "kind": "bullish",
+          "top": 3819.43,
+          "bottom": 3453.97,
+          "ce": 3636.7,
+          "size": 365.46,
+          "touched": false,
+          "filled": false
+        },
+        {
+          "time": "2025-10-01 00:00:00+00:00",
+          "kind": "bullish",
+          "top": 3928.68,
+          "bottom": 3871.89,
+          "ce": 3900.29,
+          "size": 56.8,
+          "touched": false,
+          "filled": false
+        }
+      ]
+    },
+    "1w": {
+      "bars": 600,
+      "last_completed_period": "2026-10-12",
+      "current_period": "2026-10-19",
+      "current_bar_unconfirmed": {
+        "open": 4167.55,
+        "high": 4190.42,
+        "low": 4105.025,
+        "close": 4116.385
+      },
+      "previous_completed_bar": {
+        "open": 4189.585,
+        "high": 4217.395,
+        "low": 4073.545,
+        "close": 4165.42
+      },
+      "swings_1_each_side": [
+        {
+          "time": "2026-05-11 00:00:00+00:00",
+          "price": 4773.575,
+          "kind": "high"
+        },
+        {
+          "time": "2026-05-25 00:00:00+00:00",
+          "price": 4595.33,
+          "kind": "high"
+        },
+        {
+          "time": "2026-06-08 00:00:00+00:00",
+          "price": 4023.87,
+          "kind": "low"
+        },
+        {
+          "time": "2026-06-15 00:00:00+00:00",
+          "price": 4382.615,
+          "kind": "high"
+        },
+        {
+          "time": "2026-06-29 00:00:00+00:00",
+          "price": 3942.1,
+          "kind": "low"
+        },
+        {
+          "time": "2026-07-06 00:00:00+00:00",
+          "price": 4202.705,
+          "kind": "high"
+        },
+        {
+          "time": "2026-07-13 00:00:00+00:00",
+          "price": 3959.8,
+          "kind": "low"
+        },
+        {
+          "time": "2026-07-20 00:00:00+00:00",
+          "price": 4166.13,
+          "kind": "high"
+        },
+        {
+          "time": "2026-08-24 00:00:00+00:00",
+          "price": 4697.105,
+          "kind": "high"
+        },
+        {
+          "time": "2026-08-31 00:00:00+00:00",
+          "price": 4282.625,
+          "kind": "low"
+        },
+        {
+          "time": "2026-09-14 00:00:00+00:00",
+          "price": 4235.165,
+          "kind": "low"
+        },
+        {
+          "time": "2026-10-05 00:00:00+00:00",
+          "price": 4066.535,
+          "kind": "low"
+        }
+      ],
+      "swings_2_each_side": [
+        {
+          "time": "2025-10-20 00:00:00+00:00",
+          "price": 4381.44,
+          "kind": "high"
+        },
+        {
+          "time": "2025-10-27 00:00:00+00:00",
+          "price": 3886.465,
+          "kind": "low"
+        },
+        {
+          "time": "2025-11-10 00:00:00+00:00",
+          "price": 4245.195,
+          "kind": "high"
+        },
+        {
+          "time": "2025-12-22 00:00:00+00:00",
+          "price": 4550.15,
+          "kind": "high"
+        },
+        {
+          "time": "2026-01-26 00:00:00+00:00",
+          "price": 5602.225,
+          "kind": "high"
+        },
+        {
+          "time": "2026-02-02 00:00:00+00:00",
+          "price": 4402.38,
+          "kind": "low"
+        },
+        {
+          "time": "2026-03-02 00:00:00+00:00",
+          "price": 5419.66,
+          "kind": "high"
+        },
+        {
+          "time": "2026-03-23 00:00:00+00:00",
+          "price": 4099.125,
+          "kind": "low"
+        },
+        {
+          "time": "2026-04-13 00:00:00+00:00",
+          "price": 4891.54,
+          "kind": "high"
+        },
+        {
+          "time": "2026-05-11 00:00:00+00:00",
+          "price": 4773.575,
+          "kind": "high"
+        },
+        {
+          "time": "2026-06-29 00:00:00+00:00",
+          "price": 3942.1,
+          "kind": "low"
+        },
+        {
+          "time": "2026-08-24 00:00:00+00:00",
+          "price": 4697.105,
+          "kind": "high"
+        }
+      ],
+      "unfilled_completed_fvgs": [
+        {
+          "time": "2024-08-12 00:00:00+00:00",
+          "kind": "bullish",
+          "top": 2470.85,
+          "bottom": 2458.88,
+          "ce": 2464.86,
+          "size": 11.97,
+          "touched": false,
+          "filled": false
+        },
+        {
+          "time": "2024-09-09 00:00:00+00:00",
+          "kind": "bullish",
+          "top": 2546.86,
+          "bottom": 2529.3,
+          "ce": 2538.08,
+          "size": 17.56,
+          "touched": true,
+          "filled": false
+        },
+        {
+          "time": "2025-01-20 00:00:00+00:00",
+          "kind": "bullish",
+          "top": 2730.56,
+          "bottom": 2724.78,
+          "ce": 2727.67,
+          "size": 5.78,
+          "touched": false,
+          "filled": false
+        },
+        {
+          "time": "2025-02-03 00:00:00+00:00",
+          "kind": "bullish",
+          "top": 2860.41,
+          "bottom": 2817.22,
+          "ce": 2838.81,
+          "size": 43.19,
+          "touched": true,
+          "filled": false
+        },
+        {
+          "time": "2025-03-10 00:00:00+00:00",
+          "kind": "bullish",
+          "top": 2982.34,
+          "bottom": 2930.54,
+          "ce": 2956.44,
+          "size": 51.8,
+          "touched": true,
+          "filled": false
+        },
+        {
+          "time": "2025-08-25 00:00:00+00:00",
+          "kind": "bullish",
+          "top": 3437.03,
+          "bottom": 3378.84,
+          "ce": 3407.93,
+          "size": 58.19,
+          "touched": false,
+          "filled": false
+        },
+        {
+          "time": "2025-09-01 00:00:00+00:00",
+          "kind": "bullish",
+          "top": 3579.72,
+          "bottom": 3453.97,
+          "ce": 3516.84,
+          "size": 125.75,
+          "touched": false,
+          "filled": false
+        },
+        {
+          "time": "2025-09-08 00:00:00+00:00",
+          "kind": "bullish",
+          "top": 3626.46,
+          "bottom": 3600.2,
+          "ce": 3613.33,
+          "size": 26.26,
+          "touched": false,
+          "filled": false
+        },
+        {
+          "time": "2025-09-15 00:00:00+00:00",
+          "kind": "bullish",
+          "top": 3683.55,
+          "bottom": 3674.7,
+          "ce": 3679.12,
+          "size": 8.85,
+          "touched": false,
+          "filled": false
+        },
+        {
+          "time": "2025-09-22 00:00:00+00:00",
+          "kind": "bullish",
+          "top": 3763.45,
+          "bottom": 3707.55,
+          "ce": 3735.5,
+          "size": 55.89,
+          "touched": false,
+          "filled": false
+        },
+        {
+          "time": "2025-09-29 00:00:00+00:00",
+          "kind": "bullish",
+          "top": 3884.11,
+          "bottom": 3791.26,
+          "ce": 3837.68,
+          "size": 92.86,
+          "touched": false,
+          "filled": false
+        },
+        {
+          "time": "2026-03-16 00:00:00+00:00",
+          "kind": "bearish",
+          "top": 5009.74,
+          "bottom": 4602.65,
+          "ce": 4806.19,
+          "size": 407.1,
+          "touched": true,
+          "filled": false
+        },
+        {
+          "time": "2026-08-31 00:00:00+00:00",
+          "kind": "bearish",
+          "top": 4445.45,
+          "bottom": 4442.98,
+          "ce": 4444.22,
+          "size": 2.48,
+          "touched": false,
+          "filled": false
+        },
+        {
+          "time": "2026-09-28 00:00:00+00:00",
+          "kind": "bearish",
+          "top": 4244.27,
+          "bottom": 4207.48,
+          "ce": 4225.88,
+          "size": 36.79,
+          "touched": true,
+          "filled": false
+        }
+      ]
+    },
+    "1d": {
+      "bars": 1200,
+      "last_completed_period": "2026-10-21",
+      "current_period": "2026-10-22",
+      "current_bar_unconfirmed": {
+        "open": 4139.38,
+        "high": 4140.07,
+        "low": 4107.495,
+        "close": 4116.385
+      },
+      "previous_completed_bar": {
+        "open": 4127.76,
+        "high": 4142.225,
+        "low": 4105.025,
+        "close": 4141.015
+      },
+      "swings_1_each_side": [
+        {
+          "time": "2026-09-16 00:00:00+00:00",
+          "price": 4235.165,
+          "kind": "low"
+        },
+        {
+          "time": "2026-09-18 00:00:00+00:00",
+          "price": 4399.67,
+          "kind": "high"
+        },
+        {
+          "time": "2026-09-24 00:00:00+00:00",
+          "price": 4244.27,
+          "kind": "low"
+        },
+        {
+          "time": "2026-09-25 00:00:00+00:00",
+          "price": 4315.795,
+          "kind": "high"
+        },
+        {
+          "time": "2026-09-28 00:00:00+00:00",
+          "price": 4110.87,
+          "kind": "low"
+        },
+        {
+          "time": "2026-09-30 00:00:00+00:00",
+          "price": 4219.415,
+          "kind": "high"
+        },
+        {
+          "time": "2026-10-02 00:00:00+00:00",
+          "price": 4227.53,
+          "kind": "high"
+        },
+        {
+          "time": "2026-10-06 00:00:00+00:00",
+          "price": 4184.385,
+          "kind": "high"
+        },
+        {
+          "time": "2026-10-07 00:00:00+00:00",
+          "price": 4066.535,
+          "kind": "low"
+        },
+        {
+          "time": "2026-10-12 00:00:00+00:00",
+          "price": 4217.395,
+          "kind": "high"
+        },
+        {
+          "time": "2026-10-14 00:00:00+00:00",
+          "price": 4073.545,
+          "kind": "low"
+        },
+        {
+          "time": "2026-10-16 00:00:00+00:00",
+          "price": 4199.08,
+          "kind": "high"
+        }
+      ],
+      "swings_2_each_side": [
+        {
+          "time": "2026-08-19 00:00:00+00:00",
+          "price": 4324.68,
+          "kind": "low"
+        },
+        {
+          "time": "2026-08-25 00:00:00+00:00",
+          "price": 4697.105,
+          "kind": "high"
+        },
+        {
+          "time": "2026-09-02 00:00:00+00:00",
+          "price": 4282.625,
+          "kind": "low"
+        },
+        {
+          "time": "2026-09-03 00:00:00+00:00",
+          "price": 4510.93,
+          "kind": "high"
+        },
+        {
+          "time": "2026-09-16 00:00:00+00:00",
+          "price": 4235.165,
+          "kind": "low"
+        },
+        {
+          "time": "2026-09-18 00:00:00+00:00",
+          "price": 4399.67,
+          "kind": "high"
+        },
+        {
+          "time": "2026-09-28 00:00:00+00:00",
+          "price": 4110.87,
+          "kind": "low"
+        },
+        {
+          "time": "2026-10-02 00:00:00+00:00",
+          "price": 4227.53,
+          "kind": "high"
+        },
+        {
+          "time": "2026-10-07 00:00:00+00:00",
+          "price": 4066.535,
+          "kind": "low"
+        },
+        {
+          "time": "2026-10-12 00:00:00+00:00",
+          "price": 4217.395,
+          "kind": "high"
+        },
+        {
+          "time": "2026-10-14 00:00:00+00:00",
+          "price": 4073.545,
+          "kind": "low"
+        },
+        {
+          "time": "2026-10-16 00:00:00+00:00",
+          "price": 4199.08,
+          "kind": "high"
+        }
+      ],
+      "unfilled_completed_fvgs": [
+        {
+          "time": "2025-09-01 00:00:00+00:00",
+          "kind": "bullish",
+          "top": 3470.05,
+          "bottom": 3453.97,
+          "ce": 3462.01,
+          "size": 16.08,
+          "touched": false,
+          "filled": false
+        },
+        {
+          "time": "2025-09-02 00:00:00+00:00",
+          "kind": "bullish",
+          "top": 3526.54,
+          "bottom": 3489.84,
+          "ce": 3508.19,
+          "size": 36.7,
+          "touched": true,
+          "filled": false
+        },
+        {
+          "time": "2025-09-05 00:00:00+00:00",
+          "kind": "bullish",
+          "top": 3579.72,
+          "bottom": 3564.16,
+          "ce": 3571.94,
+          "size": 15.56,
+          "touched": false,
+          "filled": false
+        },
+        {
+          "time": "2025-09-08 00:00:00+00:00",
+          "kind": "bullish",
+          "top": 3626.03,
+          "bottom": 3600.2,
+          "ce": 3613.12,
+          "size": 25.83,
+          "touched": true,
+          "filled": false
+        },
+        {
+          "time": "2025-09-19 00:00:00+00:00",
+          "kind": "bullish",
+          "top": 3683.55,
+          "bottom": 3673.2,
+          "ce": 3678.38,
+          "size": 10.34,
+          "touched": false,
+          "filled": false
+        },
+        {
+          "time": "2025-09-22 00:00:00+00:00",
+          "kind": "bullish",
+          "top": 3736.66,
+          "bottom": 3685.74,
+          "ce": 3711.2,
+          "size": 50.92,
+          "touched": true,
+          "filled": false
+        },
+        {
+          "time": "2025-09-26 00:00:00+00:00",
+          "kind": "bullish",
+          "top": 3763.45,
+          "bottom": 3761.69,
+          "ce": 3762.57,
+          "size": 1.76,
+          "touched": false,
+          "filled": false
+        },
+        {
+          "time": "2025-09-29 00:00:00+00:00",
+          "kind": "bullish",
+          "top": 3793.18,
+          "bottom": 3783.89,
+          "ce": 3788.53,
+          "size": 9.29,
+          "touched": false,
+          "filled": false
+        },
+        {
+          "time": "2026-03-03 00:00:00+00:00",
+          "kind": "bearish",
+          "top": 5260.28,
+          "bottom": 5206.27,
+          "ce": 5233.27,
+          "size": 54.02,
+          "touched": true,
+          "filled": false
+        },
+        {
+          "time": "2026-03-12 00:00:00+00:00",
+          "kind": "bearish",
+          "top": 5149.15,
+          "bottom": 5128.48,
+          "ce": 5138.82,
+          "size": 20.68,
+          "touched": false,
+          "filled": false
+        },
+        {
+          "time": "2026-03-13 00:00:00+00:00",
+          "kind": "bearish",
+          "top": 5055.12,
+          "bottom": 5038.15,
+          "ce": 5046.64,
+          "size": 16.98,
+          "touched": true,
+          "filled": false
+        },
+        {
+          "time": "2026-03-18 00:00:00+00:00",
+          "kind": "bearish",
+          "top": 4973.72,
+          "bottom": 4867.23,
+          "ce": 4920.47,
+          "size": 106.49,
+          "touched": true,
+          "filled": false
+        },
+        {
+          "time": "2026-08-28 00:00:00+00:00",
+          "kind": "bearish",
+          "top": 4564.27,
+          "bottom": 4472.16,
+          "ce": 4518.22,
+          "size": 92.11,
+          "touched": true,
+          "filled": false
+        },
+        {
+          "time": "2026-09-28 00:00:00+00:00",
+          "kind": "bearish",
+          "top": 4254.58,
+          "bottom": 4185.39,
+          "ce": 4219.99,
+          "size": 69.19,
+          "touched": true,
+          "filled": false
+        }
+      ]
+    }
+  },
+  "latest_5m_observation": {
+    "bar_start_utc": "2026-10-22 01:25:00",
+    "price": 4116.26,
+    "complete": false
+  },
+  "assessed_bias": {
+    "monthly": "Bearish intermediate delivery; secular bullish structure not fully invalidated",
+    "weekly": "Bearish; August bullish internal recovery reversed in September",
+    "daily": "Bearish directional lean inside October consolidation; no close below 4066.535 yet"
+  },
+  "dealing_ranges": {
+    "1mo": {
+      "low": 3942.1,
+      "high": 5602.225,
+      "EQ": 4772.163,
+      "position": "discount"
+    },
+    "1w": {
+      "low": 4066.535,
+      "high": 4697.105,
+      "EQ": 4381.82,
+      "position": "discount"
+    },
+    "1d": {
+      "low": 4066.535,
+      "high": 4199.08,
+      "EQ": 4132.807,
+      "position": "discount"
+    }
+  },
+  "confirmed_closes": {
+    "monthly_jan_bullish_BOS": {
+      "close": 4895.44,
+      "prior_oct25_high": 4381.44
+    },
+    "monthly_jun_bearish_CHOCH": {
+      "close": 4007.525,
+      "march_internal_low": 4099.125
+    },
+    "weekly_jun22_bearish_continuation": {
+      "close": 4088.385,
+      "prior_march_low": 4099.125
+    },
+    "weekly_aug17_internal_bullish_shift": {
+      "close": 4602.99,
+      "jun15_high": 4382.615
+    },
+    "weekly_sep28_bearish_shift": {
+      "close": 4140.52,
+      "sep14_low": 4235.165
+    },
+    "daily_sep28_bearish_BOS": {
+      "close": 4114.985,
+      "sep16_low": 4235.165
+    }
+  }
+}
